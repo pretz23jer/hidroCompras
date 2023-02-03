@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+nav{
+  font-family: 'Manrope', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px;
+}
+
+#nbarras a{
+font-size: 13px;
+font-weight: bold;
+color:rgb(73, 73, 73);
+
+}
+
+#nbarras a:hover{
+background-color: #8cc7fb8c;
+color:black;
+font-size: 17px;
+}
+
+.espacio{
+  padding-top: 4rem;
+}
+
+/*pie de pagina*/
+.pie{
+  background-color: #000000;
+  color: #ffffff;
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+}
+
+.titulopie{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.footerIframe{
+	width: 100% !important;
+	height: 264px;
+	margin-bottom: -10px;
+}
+
+#fondopie{
+	background-color: #003566;
+}
+
+#fondopie a:link {
+	text-decoration: none;
+}
+.footer{
+    min-height: 500px;
+}
+
+
+.footer-logo{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.footer-texto{
+    font-size: 1rem;
+    color: white;
+    padding: 10px;
+    margin-bottom: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.iconos-redes-sociales a{
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+}
+
+
+.iconos-redes-sociales i{
+    color: white;
+    font-size: 1.6rem;
+    transition: all 0.3s ease-in;
+}
+
+.iconos-redes-sociales a:hover{
+    background-color: white;
+    border: 2px solid #000000;
+}
+
+.iconos-redes-sociales a:hover i{
+    color: black;
+}
+
+.iconos-redes-sociales a:link{
+  text-decoration: none;
+}
+
+.textoPieDerecho{
+  font-size: 11px;
+  margin-top: -15px;
+}
+
+.sepataTexto{
+  margin-left: 12px;
+}
+.ajusteing{
+  display: flex;
+}
+
+
+/*Enunciado*/
+.enunciaTexto{
+  font-size: 55px;
+  font-weight: 800;
+}
+.enunciadoTextoDos{
+  font-size: 18px;
+  margin-top: -18px;
+
+}
+.enunciadoTextTres{
+  font-weight: bold;
+  margin-top: -15px;
+}
+
+.estiloEnunciado{
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.moldear{
+  color: #06c000;
+  font-size: 4rem;
+}
+
+.whatss:link{
+  text-decoration: none;
+}
+
+.espaciarTexto{
+  padding-top: 16px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .videomostrado{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: -1;
+  }
+  .textoenfrenteVideo{
+    position: relative;
+    overflow: hidden;
+  }
+
+  .enunciaTexto{
+    font-size: 4.5vh;
+  }
+  .centrarContenido{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .textoenfrenteVideo{
+    margin-top: 9rem;
+  }
+}
+
+.enlaceText a:link{
+  text-decoration: none;
+}
+
+.enlaceText a{
+  color: #ffffff;
+}
+
+.enlaceText a:hover{
+  font-size: 14px;
+}
+/*masrcas*/
+.estiloPagina{
+  background-color: #f8f8f8;
+  padding: 4rem 0;
+  color: rgb(71, 71, 71);
+}
+
+.marcasEstilo{
+  font-size: 22px;
+  font-weight: 500;
+}
+.lineaAzul{
+  width: 75px;
+  height: 6px;
+  background-color: #0ba3d3;
+  margin:0px auto;
+}
+.padreLineaAzul{
+  margin-top: -15px;
+  margin-bottom: 2rem;
+}
+.imgMarcas{
+  margin: 0px;
+}
+
+/*carusel marcas*/
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+      display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+      display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+  
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+  
+  .carousel-inner .carousel-item-start.active, 
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+transform: translateX(0);
+}
+
+
+/*seccion todolo que necesita*/
+.textoPicina{
+  font-size: 35px;
+  line-height: 38.5px;
+  font-weight: 900;
+}
+.lineaRoja{
+  text-align: center;
+  width: 75px;
+  height: 5px;
+  background-color: #ea3c4a;
+  margin: 0px auto;
+}
+
+.textoCotizaEspa{
+  margin-top: 3rem;
+  padding-bottom: 5rem;
+}
+.cotizaTexto{
+  font-size: 25px;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.ajusteTexto{
+  margin-left: 8px;
+}
+
+.segmentoDos{
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+
+.bombaAgua{
+  background-color: #000000;
+  padding: 5rem 0;
+}
+
+/*contactar*/
+.contactar{
+  font-size: 25px;
+  font-weight: 800;
+  line-height: normal;
+  color: white;
+}
+
+.concatacnos{
+  padding: 5rem 0;
+  background-image: url(./components/img/gota.png);
+  background-repeat: repeat-x;
+}
