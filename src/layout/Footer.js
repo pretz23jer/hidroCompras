@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import imagenPlay from './img/playstore.png';
-import hidro3 from './img/hidrob.png';
+import imagenPlay from './Img/playstore.png';
+import hidro3 from './Img/hidrob.png';
 
 class Footer extends Component{
     render() {

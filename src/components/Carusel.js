@@ -1,4 +1,4 @@
-Accion();
+
 function Accion(){
     let items = document.querySelectorAll('.carousel .carousel-item')
 
@@ -16,5 +16,5 @@ function Accion(){
         }
     })
 
-    console.log('Pasa por aca')
+    console.log('Pasa por aca');
 }
