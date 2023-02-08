@@ -21,7 +21,7 @@ class Enunciado extends Component{
                         </div>
                         <div className="col videomostrado">
                             <div className='player-wrapper'>
-                                <video autoplay='true' muted={true} className='react-player' loop src={Video} width="100%" ></video>
+                                <video autoPlay={true} muted={true} className='react-player' loop src={Video} width="100%" ></video>
                             </div>
                         </div>
                     </div>

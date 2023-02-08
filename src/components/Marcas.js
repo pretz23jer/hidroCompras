@@ -13,8 +13,28 @@ import marca10 from './img/BOSHART-INDUSTRIES.png';
 import marca11 from './img/CLEAR-AQUA.jpg';
 import marca12 from './img/DAB.jpg';
 
+let items = document.querySelectorAll('.carousel .carousel-item');
+
+function Accion(){
+    items.forEach((el) => {
+        const minPerSlide = 4
+        let next = el.nextElementSibling
+        for (var i=1; i<minPerSlide; i++) {
+            if (!next) {
+                // wrap carousel by using first child
+                next = items[0]
+            }
+            let cloneChild = next.cloneNode(true)
+            el.appendChild(cloneChild.children[0])
+            next = next.nextElementSibling
+        }
+        console.log('ejecuta este codigo')
+    });
+};
+
 class Marcas extends Component{
     render() {
+        Accion()
         return(
             <div className="estiloPagina">
                 <div className="container-fluid text-center">
@@ -101,5 +121,4 @@ class Marcas extends Component{
         )
     }
 }
-
 export default Marcas;
