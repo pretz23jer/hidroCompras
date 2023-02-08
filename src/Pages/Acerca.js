@@ -36,7 +36,7 @@ function Acerca(){
                         <div className="col-12 col-md-4">
                             <img src={imagenSobre2} className='img-fluid' />
                         </div>
-                        <div className="row">
+                        <div className="row" data-aos="fade-down">
                             <div className="col-12">
                                 <p>
                                 Los equipos son facturados por HIDROCOMPRAS, entregados a la dirección que el cliente nos indique y todo lo hará en su celular desde la comodidad de su casa u oficina. Nuestros afiliados harán su trabajo normal asesorando como se debe, recomendándole los equipos y las marcas que usted como cliente necesita conocer. TODOS NUESTROS PRODUCTOS cuentan con garantía por desperfectos de fábrica de 1 año.<br /><br />
