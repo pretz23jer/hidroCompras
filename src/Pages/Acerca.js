@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react';
-import Footer from '../Layout/Footer';
 import Boton from '../Layout/Boton';
 import imagenSobre from '../Pages/acerca.jpg';
 import imagenSobre2 from '../Pages/cerca2.jpg';
@@ -155,7 +154,6 @@ function Acerca(){
                     </div>
                 </div>
             </div>
-            <Footer />
         </div>
     )
 }

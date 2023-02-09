@@ -11,7 +11,7 @@ import marca9 from './img/BERKELEY.png';
 import marca10 from './img/BOSHART-INDUSTRIES.png';
 import marca11 from './img/CLEAR-AQUA.jpg';
 import marca12 from './img/DAB.jpg';
-import Carrusel from '../components/Carusel';
+import '../components/Carusel';
 
 class Marcas extends Component{
     render() {
@@ -127,9 +127,7 @@ class Marcas extends Component{
                         </div>
                     </div>
                 </div>
-                <Carrusel />
             </div>
-            
         )
     }
 }

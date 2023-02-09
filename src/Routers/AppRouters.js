@@ -1,19 +1,47 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import 'aos/dist/aos.css';
 import Inicio from '../Pages/Inicio';
 import Productos from "../Productos/Productos";
-import Acerca from '../Pages/Acerca';
 import Menu from '../Layout/Menu';
+import Footer from "../Layout/Footer";
+import Contacto from "../Pages/Contacto";
+import Servicio from "../Pages/Servicio";
+import Socio from "../Pages/Socio";
+
+import Login from "../Pages/Login";
+
+import Acerca from '../Pages/Acerca';
+import Afiliados from "../Enlaces/Afiliados";
+import Ayuda from "../Enlaces/Ayuda";
+import Demo from "../Enlaces/Demo";
+import Politicas from "../Enlaces/Politicas";
+import Preguntas from "../Enlaces/Preguntas";
+import Soporte from "../Enlaces/Soporte";
+import Unirte from "../Enlaces/Unirte";
 
 const AppRouters = () =>{
     return (
         <Router>
           <Menu />
           <Routes>
-            <Route exact path="/producto" element={<Productos />} />
-            <Route exact path="/acerca" element={<Acerca />} />
             <Route exact path="/" element={<Inicio />} />
+            <Route exact path="/producto" element={<Productos />} />
+            <Route exact path="/servicio" element={<Servicio />} />
+            <Route exact path="/socio" element={<Socio />} />
+            <Route exact path="/contactar" element={<Contacto />} />
+            <Route exact path="/login" element={<Login />} />
+
+            <Route exact path="/acerca" element={<Acerca />} />
+            <Route exact path="/afiliado" element={<Afiliados />} />
+            <Route exact path="/ayuda" element={<Ayuda />} />
+            <Route exact path="/demo" element={<Demo />} />
+            <Route exact path="/politica" element={<Politicas />} />
+            <Route exact path="/pregunta" element={<Preguntas />} />
+            <Route exact path="/soporte" element={<Soporte />} />
+            <Route exact path="/unirte" element={<Unirte />} />
           </Routes>
+          <Footer />
         </Router>
     );
 }

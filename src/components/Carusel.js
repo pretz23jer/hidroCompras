@@ -1,7 +1,8 @@
-Carusel()
+let items = document.querySelectorAll('.carousel .carousel-item')
 
+
+Carusel()
 function Carusel(){
-    let items = document.querySelectorAll('.carousel .carousel-item')
 
     items.forEach((el) => {
         const minPerSlide = 4
@@ -16,7 +17,7 @@ function Carusel(){
             next = next.nextElementSibling
         }
     })
-    console.log('esto funciona per')
+    console.log('esto funciona pero')
 }
 
 export default Carusel;

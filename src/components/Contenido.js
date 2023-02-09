@@ -22,7 +22,7 @@ class Contenido extends Component{
                     <p className="text-center">BOMBAS, MOTORES, CALENTADORES, ACCESORIOS</p>
                     <div className="lineaRoja"></div>
                 </div>
-                <div className="container">
+                <div className="container" data-aos="down-up">
                     <div className="row textoCotizaEspa">
                         <div className="col-12 col-md-6 col-lg-6">
                             <p className="cotizaTexto">Productos de alta calidad,<br /> eficiencia  y garantía</p>
@@ -47,7 +47,7 @@ class Contenido extends Component{
                         </div>
                     </div>
                 </div>
-                <div className="container segmentoDos">
+                <div className="container segmentoDos" data-aos="down-up">
                     <div className="row">
                         <div className="col-12 col-md-6 col-lg-6">
                             <img src={anuncio} height="200" className="img-fluid" />
@@ -66,12 +66,12 @@ class Contenido extends Component{
                         </div>
                     </div>
                 </div>
-                <div className="bombaAgua">
+                <div className="bombaAgua" data-aos="down-up">
                     <p className="contactar text-center" >Adquiere tus productos</p>
                     <p className="text-center text-light">¡Recuerde que con <strong>Hidrocompras</strong> encuentras todos los productos referentes a piscinas </p>
                     <p className="text-center text-light">Cotiza en un solo clic <img src={click} width="50" /> </p>
                 </div>
-                <div className="container concatacnos">
+                <div className="container concatacnos" data-aos="down-up">
                     <p className="cotizaTexto text-center">Productos para el Hogar</p><br/><br/>
                     <div className="text-center">
                         <img src={bombas} height="250"  /><img src={calentadores} height="250"  /><img src={depositos} height="250"  />

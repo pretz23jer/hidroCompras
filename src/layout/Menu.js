@@ -13,9 +13,6 @@ function Menu(){
                     <div className="collapse navbar-collapse" id="navegacionMenu">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                          <a className="nav-link active" href="/acerca">Acerca</a>
-                        </li>
-                        <li className="nav-item">
                           <a className="nav-link active" href="/producto">Productos</a>
                         </li>
                         <li className="nav-item">
