@@ -1,4 +1,5 @@
 import React from "react";
+import '../components/Carusel';
 import Enunciado from '../components/Enunciado';
 import Contenido from '../components/Contenido';
 import Marcas from '../components/Marcas';

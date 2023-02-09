@@ -221,7 +221,7 @@ font-size: 17px;
 }
 
 /*carusel marcas*/
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .carousel-inner .carousel-item > div {
       display: none;
   }
@@ -237,7 +237,7 @@ font-size: 17px;
 }
 
 /* medium and up screens */
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
   
   .carousel-inner .carousel-item-end.active,
   .carousel-inner .carousel-item-next {
@@ -248,16 +248,22 @@ font-size: 17px;
   .carousel-inner .carousel-item-prev {
     transform: translateX(-25%);
   }
-  
 }
-
-
 
 .carousel-inner .carousel-item-end,
 .carousel-inner .carousel-item-start { 
 transform: translateX(0);
 }
 
+.stiloCard{
+  border: none;
+}
+
+
+.espacioCard{
+  padding: 1rem;
+}
+/*---end----*/
 
 /*seccion todolo que necesita*/
 .textoPicina{
