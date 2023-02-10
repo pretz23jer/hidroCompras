@@ -5,6 +5,8 @@ import imagenSobre2 from '../Pages/cerca2.jpg';
 import objetivo from '../Pages/cerca3.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Menu from '../Layout/Menu';
+import Footer from "../Layout/Footer";
 
 function Acerca(){
     useEffect(() => {
@@ -13,6 +15,7 @@ function Acerca(){
 
     return (
         <div className="espacio">
+            <Menu />
             <Boton />
             <div className="container" data-aos="down-up">
                 <div className="">
@@ -154,6 +157,7 @@ function Acerca(){
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

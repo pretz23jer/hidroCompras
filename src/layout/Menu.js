@@ -26,6 +26,13 @@ function Menu(){
                         </li>
                     </ul>
                     </div>
+                    <div>
+                      <ul className="nav justify-content-end">
+                        <li className="nav-item">
+                          <a className="nav-link" href="/auth/login">Inciar sesión</a>
+                        </li>
+                      </ul>
+                    </div>
                 </div>
             </nav>
         </div>

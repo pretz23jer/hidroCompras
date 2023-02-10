@@ -221,6 +221,7 @@ font-size: 17px;
 }
 
 /*carusel marcas*/
+
 @media (max-width: 767px) {
   .carousel-inner .carousel-item > div {
       display: none;
@@ -236,7 +237,7 @@ font-size: 17px;
   display: flex;
 }
 
-/* medium and up screens */
+
 @media (min-width: 768px) {
   
   .carousel-inner .carousel-item-end.active,
@@ -255,6 +256,7 @@ font-size: 17px;
 transform: translateX(0);
 }
 
+
 .stiloCard{
   border: none;
 }
@@ -263,6 +265,7 @@ transform: translateX(0);
 .espacioCard{
   padding: 1rem;
 }
+
 /*---end----*/
 
 /*seccion todolo que necesita*/
@@ -454,3 +457,47 @@ transform: translateX(0);
   }
 }
 
+/*login*/
+.logearse {
+  height: 100%;
+}
+
+.estiloLogin{
+  background-color: #f1f1f1;
+}
+
+.cuerpo {
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 30vh;
+}
+
+.form-signin {
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
