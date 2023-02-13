@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import 'aos/dist/aos.css';
 import Inicio from '../Pages/Inicio';
-import Productos from "../Productos/Productos";
+import Productos from "../Pages/Productos";
 import Contacto from "../Pages/Contacto";
 import Servicio from "../Pages/Servicio";
 import Socio from "../Pages/Socio";

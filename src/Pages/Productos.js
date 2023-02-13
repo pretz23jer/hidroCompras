@@ -1,19 +1,18 @@
 import React, { Component } from "react";
 import Menu from '../Layout/Menu';
 import Footer from "../Layout/Footer";
-import fondoMarcas from "../components/img/servicio.jpg"
-import ServiciosHidro from "../components/ServiciosHidro";
+import ProductosHidro from "../components/ProductosHidro";
 
-class Servicio extends Component{
+class Productos extends Component{
     render() {
         return(
-            <div>
+            <div className="estiloPagina">
                 <Menu />
-                <ServiciosHidro />
+                <ProductosHidro />
                 <Footer />
             </div>
         )
     }
 }
 
-export default Servicio;
+export default Productos;

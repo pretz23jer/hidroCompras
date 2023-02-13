@@ -10,7 +10,7 @@ import Producto6 from "../components/img/p6.png"
 import Producto7 from "../components/img/p8.png"
 import Producto8 from "../components/img/p12.png"
 
-class Productos extends Component{
+class ProductosHidro extends Component{
     render() {
         return(
             <div className="estiloPagina">
@@ -88,12 +88,10 @@ class Productos extends Component{
                             </a>
                         </div>
                     </div>
-                   
                 </div>
-                <Footer />
             </div>
         )
     }
 }
 
-export default Productos;
+export default ProductosHidro;
