@@ -222,6 +222,7 @@ font-size: 17px;
 
 /*carusel marcas*/
 
+/*
 @media (max-width: 767px) {
   .carousel-inner .carousel-item > div {
       display: none;
@@ -255,10 +256,12 @@ font-size: 17px;
 .carousel-inner .carousel-item-start { 
 transform: translateX(0);
 }
-
+*/
 
 .stiloCard{
+  background-color: #000;
   border: none;
+  margin: 0px auto;
 }
 
 
@@ -501,3 +504,37 @@ transform: translateX(0);
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+/*seccion socios*/
+.sociosEstilo{
+  border-radius: 10px;
+
+}
+.sociosContenido{
+  border-radius: 15px; 
+  margin: 7px;
+}
+
+.sociosContenido:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 2px;
+}
+
+.alturaProducto{
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+
+.alturaProducto:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 2px;
+}
+
+#enlaceProducto:link{
+  padding: 5px;
+  text-decoration: none;
+  font-weight: 600;
+}
+

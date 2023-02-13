@@ -24,9 +24,9 @@ class Marcas extends Component{
                     </div>
                 </div>
                 <div className="container bg-white">
-                    <div className="row mx-auto my-auto justify-content-center">
+                    <div className="row mx-auto my-auto justify-content-center text-center">
                         <div id="carruselMarcas" className="carousel carousel-dark slide" data-bs-ride="carousel">
-                            <div className="carousel-inner">
+                            <div className="carousel-inner row">
                                 <div className="carousel-item active">
                                     <div className="col-md-3">
                                         <div className="estiloCard">
