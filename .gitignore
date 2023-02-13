@@ -11,6 +11,10 @@
 # production
 /build
 
+#archives
+build.rar
+hidrocompras.rar
+
 # misc
 .DS_Store
 .env.local
