@@ -25,8 +25,38 @@ class Marcas extends Component{
                 </div>
                 <div className="container bg-white">
                     <div className="row mx-auto my-auto justify-content-center text-center">
-                        <div id="carruselMarcas" className="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div id="carruselMarcas" className="">
                             <div className="carousel-inner row">
+                                    <div className="col-md-3">
+                                        <div className="estiloCard">
+                                            <div className="card-img">
+                                                <div className="espacioCard">
+                                                    <img src={marca2} className="d-block w-100" />
+                                                </div>
+                                            </div> 
+                                        </div> 
+                                    </div>
+                                    <div className="col-md-3">
+                                        <div className="estiloCard">
+                                            <div className="card-img">
+                                                <div className="espacioCard">
+                                                    <img src={marca3} className="d-block w-100" />
+                                                </div>
+                                            </div> 
+                                        </div> 
+                                    </div>
+                                    <div className="col-md-3">
+                                        <div className="estiloCard">
+                                            <div className="card-img">
+                                                <div className="espacioCard">
+                                                    <img src={marca4} className="d-block w-100" />
+                                                </div>
+                                            </div> 
+                                        </div> 
+                                    </div>
+
+
+
                                 <div className="carousel-item active">
                                     <div className="col-md-3">
                                         <div className="estiloCard">

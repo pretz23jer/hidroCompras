@@ -538,3 +538,47 @@ transform: translateX(0);
   font-weight: 600;
 }
 
+/*contactar*/
+.espacioFooterPages{
+  margin-bottom: -15px;
+}
+
+
+
+.redesSociales a{
+  width: 45px;
+  height: 45px;
+  margin: 10px;
+  border: 2px solid rgb(2, 0, 95);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in;
+}
+
+
+.redesSociales i{
+  color: rgb(0, 35, 151);
+  font-size: 1.6rem;
+  transition: all 0.3s ease-in;
+}
+
+.redesSociales a:hover{
+  background-color: rgb(2, 0, 105);
+  border: 2px solid rgb(2, 0, 105);
+}
+
+.redesSociales a:hover i{
+  color: rgb(255, 255, 255);
+}
+
+.redesSociales a:link{
+  text-decoration: none;
+}
+
+.estiloMapa iframe{
+  height: 500px;
+  width: 800px;
+  border: 0;
+}
