@@ -53,13 +53,13 @@ class Monedas extends Component{
             <div>
                 <Carousel>
                     <Carousel.Item interval={4000}>
-                        <img className="d-block w-100" src={Baner3} alt="First slide" alt="Imagen Hidro"/>
+                        <img className="d-block w-100" src={Baner3} alt="First slide" />
                     </Carousel.Item>
                     <Carousel.Item interval={4000}>
-                        <img className="d-block w-100"  src={Baner31} alt="Second slide"  alt="Imagen Hidro"/>
+                        <img className="d-block w-100"  src={Baner31} alt="Second slide"  />
                     </Carousel.Item>
                     <Carousel.Item interval={4000}>
-                    <img className="d-block w-100"  src={Baner3} alt="Third slide" alt="Imagen Hidro" />
+                    <img className="d-block w-100"  src={Baner3} alt="Third slide"  />
                     </Carousel.Item>
                 </Carousel>
                 <div className="fondoBeigeDos pt-5 pb-5" data-aos="fade-down">
@@ -220,12 +220,12 @@ class Monedas extends Component{
                                         <p className="fs-2 text-center">Descarga la app</p>
                                         <div className="d-flex justify-content-center pb-5" data-aos="fade-down">
                                             <div className="p-1 m-1" data-aos="fade-down">
-                                                <a href="#" rel="noreferrer" rel="noreferrer">
+                                                <a href="#" rel="noreferrer">
                                                     <img src={PlayStore} height="50" alt="Imagen Hidro" />
                                                 </a>
                                             </div>
                                             <div className="p-1 m-1" data-aos="fade-down">
-                                                <a href="#" rel="noreferrer" rel="noreferrer">
+                                                <a href="#" rel="noreferrer">
                                                     <img src={AppStore} height="50" alt="Imagen Hidro" />
                                                 </a>
                                             </div>

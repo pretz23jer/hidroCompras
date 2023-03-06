@@ -135,10 +135,10 @@ class Home extends Component{
                     <div className="text-center pb-5">
                         <div className="d-flex text-center justify-content-center">
                             <div className="justify-content-center p-1">
-                                <a href="https://play.google.com/store/apps/" target="_blank"  rel="noopener noreferrer" className="btn btn-md btn-dark fw-bold animarBotonDescargar" rel="noreferrer" >&nbsp;&nbsp;Descargar HidroCliente&nbsp;&nbsp;</a>
+                                <a href="https://play.google.com/store/apps/" target="_blank" className="btn btn-md btn-dark fw-bold animarBotonDescargar" rel="noreferrer" >&nbsp;&nbsp;Descargar HidroCliente&nbsp;&nbsp;</a>
                             </div>
                             <div className="p-1 justify-content-center">
-                                <a href="https://play.google.com/store/apps/" target="_blank"  rel="noopener noreferrer" className="btn btn-md btn-dark fw-bold animarBotonDescargar" rel="noreferrer" >&nbsp;&nbsp;Descargar HidroTécnico&nbsp;&nbsp;</a>
+                                <a href="https://play.google.com/store/apps/" target="_blank" className="btn btn-md btn-dark fw-bold animarBotonDescargar" rel="noreferrer" >&nbsp;&nbsp;Descargar HidroTécnico&nbsp;&nbsp;</a>
                             </div>
                         </div>
                     </div>
@@ -182,7 +182,7 @@ class Home extends Component{
                     </div>
                 </div>
                 <div className="text-center pt-5 mt-2 pb-5" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                    <a href="https://play.google.com/store/apps/" target="_blank"  rel="noopener noreferrer" className="btn btn-md btn-dark fw-bold animarBotonDescargar" rel="noreferrer">
+                    <a href="https://play.google.com/store/apps/" target="_blank"  rel="noopener noreferrer" className="btn btn-md btn-dark fw-bold animarBotonDescargar">
                     &nbsp;&nbsp;Descargar Hidrocompras&nbsp;&nbsp;
                     </a>
                 </div>
