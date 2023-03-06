@@ -230,7 +230,7 @@ class Home extends Component{
                     <div className="row pt-2 mt-4">
                         <div className="col-12 col-sm-6 pt-5 mt-5" data-aos="flip-down">
                             <div className="modificarEspacio pb-5">
-                                <p className="h3 pt-5">Por primera vez no solo ganas por instalar, ganas usando hidrocompras.</p>
+                                <p className="h3 pt-5">Por primera vez no solo ganas por instalar, ganas usando Hidrocompras.</p>
                                 <p className="h5 pt-4 mb-5">Somos la primera App para Plomeros y Técnicos que quieren ganar más.</p>
                             </div>
                         </div>
