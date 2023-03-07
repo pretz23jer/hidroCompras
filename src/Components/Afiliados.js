@@ -25,7 +25,7 @@ class Afiliados extends Component{
                                     <div className="card tarjetasAcerca">
                                         <div className="card-body">
                                             <p className="text-center letraObjeti">VISITAN A SUS PROPIOS CLIENTES</p>
-                                            <p>Tu te quedas con tus propios clientes, incluso nosotros te brindaremos oportunidades de conectar con más clientes nuevos que necesiten de tus servicios.</p>
+                                            <p>Tú te quedas con tus propios clientes, incluso nosotros te brindaremos oportunidades de conectar con más clientes nuevos que necesiten de tus servicios.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -33,7 +33,7 @@ class Afiliados extends Component{
                                     <div className="card tarjetasAcerca">
                                         <div className="card-body">
                                             <p className="text-center letraObjeti">ASESORAN BIEN A SUS CLIENTES</p>
-                                            <p>Ya que detectaste el problema hidráulico que tiene, brinda la solución hidráulica con nuestra tienda en linea y nuestra app HIDROCOMPRAS y gana comisiones con los mismos equipos que instalas.</p>
+                                            <p>Ya que detectaste el problema hidráulico que tiene, brinda la solución hidráulica con nuestra tienda en línea y nuestra app HIDROCOMPRAS y gana comisiones con los mismos equipos que instalas.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -41,7 +41,7 @@ class Afiliados extends Component{
                                     <div className="card tarjetasAcerca">
                                         <div className="card-body">
                                             <p className="text-center letraObjeti">REFIEREN LOS EQUIPOS QUE INSTALAN</p>
-                                            <p>Nosotros haremos todo, facturamos al NIT que el cliente pida, entregamos en la dirección que el cliente indique (aplica restricciones) * tu instalas y ganas.</p>
+                                            <p>Nosotros haremos todo, facturamos al NIT que el cliente pida, entregamos en la dirección que el cliente indique (aplica restricciones) tú instalas y ganas.</p>
                                         </div>
                                     </div>
                                 </div>

@@ -27,7 +27,7 @@ class PreguntasHidro extends Component{
                                 <div className="accordion-item" data-aos="fade-down">
                                     <h2 className="accordion-header" id="headingOne">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                    ¿COMO FUNCIONA EL PLAN LEALTAD DE HIDROCOMPRAS?
+                                    ¿CÓMO FUNCIONA EL PLAN LEALTAD DE HIDROCOMPRAS?
                                     </button>
                                     </h2>
                                     <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -40,12 +40,12 @@ class PreguntasHidro extends Component{
                                 <div className="accordion-item" data-aos="fade-down">
                                     <h2 className="accordion-header" id="headingTwo">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    ¿COMO ME AFILIO AL PLAN LEALTAD DE HIDROCOMPRAS?
+                                    ¿CÓMO ME AFILIO AL PLAN LEALTAD DE HIDROCOMPRAS?
                                     </button>
                                     </h2>
                                     <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
-                                    Descarga la app desde tu tienda App Stote o Play Store, registrate llenando los campos solicitados, ya que recibiste tu <strong>USUARIO</strong> y <strong>CONTRASEÑA</strong> tendras acceso a la app donde encontraras nuestros productos y tu billetera digital en donde podras ir controlando las ventas que refieres.
+                                    Descarga la app desde tu tienda AppS tote o Play Store, regístrate llenando los campos solicitados, ya que recibiste tu <strong>USUARIO</strong> y <strong>CONTRASEÑA</strong> tendrás acceso a la app donde encontraras nuestros productos y tu billetera digital, donde podrás ir controlando las ventas que refieres.
                                     </div>
                                     </div>
                                 </div>
@@ -64,7 +64,7 @@ class PreguntasHidro extends Component{
                                 <div className="accordion-item" data-aos="fade-down">
                                     <h2 className="accordion-header" id="headingThree">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cuartro" aria-expanded="false" aria-controls="cuartro">
-                                    ¿TENGO ALGUN CONTRATO O PRESTACIONES?
+                                    ¿TENGO ALGÚN CONTRATO O PRESTACIONES?
                                     </button>
                                     </h2>
                                     <div id="cuartro" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -76,13 +76,13 @@ class PreguntasHidro extends Component{
                                 <div className="accordion-item" data-aos="fade-down">
                                     <h2 className="accordion-header" id="headingThree">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cinco" aria-expanded="false" aria-controls="cinco">
-                                    ¿QUE BENEFICIOS OFRECEN?
+                                    ¿QUÉ BENEFICIOS OFRECEN?
                                     </button>
                                     </h2>
                                     <div id="cinco" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
                                     Pago de comisiones por referir, puntos que se pueden canjear por productos, tarjetas de regalos y premios. Adicional contamos con capacitaciones programadas presenciales y virtuales, certificaciones por marca y/o proveedor.  <br />
-                                    *Las fechas de los cursos y capacitaciones seran variadas y nuestros afiliados serán notificados por medio de whatsapp, llamada o notificacion desde su perfil en la app de <strong>HIDROCOMPRAS</strong>.
+                                    *Las fechas de los cursos y capacitaciones serán variadas y nuestros afiliados serán notificados por medio de WhatsApp, llamada o notificación desde su perfil en la app de <strong>HIDROCOMPRAS</strong>.
                                     </div>
                                     </div>
                                 </div>

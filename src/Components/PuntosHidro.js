@@ -109,13 +109,13 @@ class PuntosHidro extends Component{
                                 <div className="espacioApp">
                                     <p className="fs-2 text-center">Descarga la app</p>
                                     <div className="d-flex justify-content-center pb-5" data-aos="fade-down">
-                                        <div className="p-1 m-1">
-                                            <a href="#" rel="noreferrer" rel="noreferrer">
+                                        <div className="p-1 m-1" data-aos="fade-down">
+                                            <a href="https://play.google.com/store/games?hl=es" target="_blank" rel="noreferrer">
                                                 <img src={PlayStore} height="50" alt="Imagen Hidro" />
                                             </a>
                                         </div>
-                                        <div className="p-1 m-1" >
-                                            <a href="#" rel="noreferrer" rel="noreferrer">
+                                        <div className="p-1 m-1" data-aos="fade-down">
+                                            <a href="https://apps.apple.com/es/app/apple-store/" target="_blank" rel="noreferrer">
                                                 <img src={AppStore} height="50" alt="Imagen Hidro" />
                                             </a>
                                         </div>
@@ -138,7 +138,7 @@ class PuntosHidro extends Component{
                                 <br />
                                 <br />
                                 <p className="fw-bold fs-3">Billetera Digital</p>
-                                <p className="h5 fw-lighter">Todas tus comisiones se acumulan en tu billetera digital personal, revisa también los puntos que se acumulan con cada venta y así ganas doble.</p>
+                                <p className="h5 fw-lighter">Todas tus comisiones se acumulan en tu billetera digital personal, revisa también los puntos que se acumulan con cada venta y así ganas dobles.</p>
                             </div>
                             <div className="col-12 col-lg-1" style={{ display: Condicion }} data-aos="fade-down">
                                 <div className="pt-5 mt-5">
@@ -165,11 +165,11 @@ class PuntosHidro extends Component{
                             </div>
                             <div className="col-12 col-lg-3 text-end" style={{ display: Condicion }} data-aos="fade-down">
                                 <p className="fw-bold fs-3 pt-5 mt-5">En la palma de tu mano</p>
-                                <p className="h5 fw-lighter">Encuentra los productos mas solicitados del sector residencial e industrial en un solo lugar, no tienes que salir a buscarlo, nosotros llegamos a ti.</p>
+                                <p className="h5 fw-lighter">Encuentra los productos más solicitados del sector residencial e industrial en un solo lugar, no tienes que salir a buscarlo, nosotros llegamos a ti.</p>
                                 <br />
                                 <br />
                                 <p className="fw-bold fs-3 mt-5 pt-5">Ahorra tiempo y recursos</p>
-                                <p className="h5 fw-lighter">HIDROCOMPRAS te lleva el producto a donde tu cliente lo indique, tanto el cliente como tu no gastan nada, recibes, instalas y ganas.</p>
+                                <p className="h5 fw-lighter">HIDROCOMPRAS te lleva el producto a donde tú cliente lo indique, tanto el cliente como tu no gastan nada, recibes, instalas y ganas.</p>
                             </div>
                         </div>
                     </div>

@@ -748,6 +748,9 @@ nav{
   padding-bottom: 4rem;
 }
 
+.espacioBaner{
+  padding-top: 5rem;
+}
 /*MEDIA QUERYS*/
 
 @media screen and (min-width: 900px) {
@@ -766,17 +769,25 @@ nav{
     font-size: 20px;
   }
 
+  .espacioBaner{
+    padding-top: 0rem;
+    margin-top: -1rem;
+  }
+
   .todasApps{
-    padding-top: 2rem;
-    font-size: 20px;
-    line-height: 20px;
-    color: #000;
-    text-shadow: rgba(255,255,255,1) 0px 0px 12px, rgba(255,255,255,1) 0px 0px 12px;
+    padding-top: 0rem;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    line-height: normal;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: rgb(10, 10, 10) 1px 1px 1px, rgrgb(0, 0, 0)px 1px 1px;
   }
 
   .acumulaTexto{
     line-height: normal;
-    text-shadow: rgba(255,255,255,1) 0px 0px 12px, rgba(255,255,255,1) 0px 0px 12px;
+    text-align: center;
+    text-shadow: rgb(10, 10, 10) 1px 1px 1px, rgrgb(0, 0, 0)px 1px 1px;
   }
   .acercaTexto{
    height: 19rem;

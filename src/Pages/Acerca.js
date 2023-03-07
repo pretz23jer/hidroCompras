@@ -29,7 +29,7 @@ function Acerca(){
 
                             <strong>HIDROCOMPRAS</strong> conecta a millones de personas y hogares con miles de técnicos – plomeros – instaladores que se encuentran buscando la oportunidad de servirle en sus necesidades hidráulicas residenciales. 
 
-                            <strong>Somos una herramienta de venta, la conexión entre la necesidad del cliente y los productos que los técnicos – plomeros atienden </strong>, el cliente encontrará los productos a precios competitivos pero sus beneficios vienen desde el ahorrarse el tiempo y el combustible que usa para salir a buscar el equipo adecuado para su necesidad de agua, así como dolores de cabeza con el tráfico que únicamente nos quita nuestra paciencia y paz. 
+                            <strong> Somos una herramienta de venta, la conexión entre la necesidad del cliente y los productos que los técnicos – plomeros atienden </strong>, el cliente encontrará los productos a precios competitivos pero sus beneficios vienen desde el ahorrarse el tiempo y el combustible que usa para salir a buscar el equipo adecuado para su necesidad de agua, así como dolores de cabeza con el tráfico que únicamente nos quita nuestra paciencia y paz. 
                             </p>
                         </div>
                         <div className="col-12 col-md-4" data-aos="fade-down">

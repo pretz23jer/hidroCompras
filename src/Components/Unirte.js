@@ -20,7 +20,7 @@ class Unirte extends Component{
                                 <h2 className="pt-3 mt-2 tituloAcerca">¿Quieres unirte?</h2>
                                 <div className="text-start lineaAzulSobre mb-4"></div>
                                 <p className="">¡Estamos trabajando para revolucionar la manera en que las personas hacen sus compras hidráulicas!</p>
-                                <p className="fw-bold">Buscamos Plomeros que quieran aumentar sus ingresos haciendo lo mismo que hacen todos los dias, asesorar a sus propios clientes y usar la APP de HIDROCOMPRAS como herramienta de venta para así ganar comisión de lo que recomiendan e instalan, que quieran capacitarse y certificarse para ampliar o completar tu conocimiento en el área hidráulica.</p>
+                                <p className="fw-bold">Buscamos Plomeros que quieran aumentar sus ingresos haciendo lo mismo que hacen todos los días, asesorar a sus propios clientes y usar la APP de HIDROCOMPRAS como herramienta de venta para así ganar comisión de lo que recomiendan e instalan, que quieran capacitarse y certificarse para ampliar o completar tu conocimiento en el área hidráulica.</p>
                             </div>
                         </div>
                     </div>

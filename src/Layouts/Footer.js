@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import imagenPlay from '../Resources/playstore.png';
+import AppStore from '../Resources/appstore.png';
 import hidro3 from '../Resources/hidrob.png';
 
 class Footer extends Component{
@@ -39,7 +40,15 @@ class Footer extends Component{
                                     </a>
                                 </div>
                                 <p className="titulopie">Descargar la app</p>
-                                <a href="https://play.google.com/store/games?hl=es" target="_blank" rel="noreferrer"><img src={imagenPlay} width='150' alt="Imagen Hidro" /></a>
+                                <div className="row">
+                                    <div className="col-6">
+                                        <a href="https://play.google.com/store/games?hl=es" target="_blank" rel="noreferrer"><img src={imagenPlay} width='150' alt="Imagen Hidro" /></a>
+                                    </div>
+                                    <div className="col-6">
+                                        <a href="https://apps.apple.com/es/app/apple-store/" target="_blank" rel="noreferrer"><img src={AppStore} width='150' alt="Imagen Hidro" /></a>
+                                    </div>
+                                </div>
+                               
                                 <div className="ajusteing mt-3">
                                     <div>
                                         <img src={hidro3} width='50' alt="Imagen Hidro"/>

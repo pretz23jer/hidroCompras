@@ -19,7 +19,7 @@ class Ayuda extends Component{
                 </div>
                 <div className="fondoCelesteDemo" data-aos="fade-down">
                     <div className="text-white text-center">
-                        <p className="fw-bold fs-1 h1 pt-3 pb-3">¿Necesitas ayuda? <br /> Comunicate con nosotros </p>
+                        <p className="fw-bold fs-1 h1 pt-3 pb-3">¿Necesitas ayuda? <br /> Comunícate con nosotros </p>
                     </div>
                 </div>
                 <div className="bg-black pt-4 pb-5" data-aos="fade-down">

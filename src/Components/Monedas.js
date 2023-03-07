@@ -220,12 +220,12 @@ class Monedas extends Component{
                                         <p className="fs-2 text-center">Descarga la app</p>
                                         <div className="d-flex justify-content-center pb-5" data-aos="fade-down">
                                             <div className="p-1 m-1" data-aos="fade-down">
-                                                <a href="#" rel="noreferrer">
+                                                <a href="https://play.google.com/store/games?hl=es" target="_blank" rel="noreferrer">
                                                     <img src={PlayStore} height="50" alt="Imagen Hidro" />
                                                 </a>
                                             </div>
                                             <div className="p-1 m-1" data-aos="fade-down">
-                                                <a href="#" rel="noreferrer">
+                                                <a href="https://apps.apple.com/es/app/apple-store/" target="_blank" rel="noreferrer">
                                                     <img src={AppStore} height="50" alt="Imagen Hidro" />
                                                 </a>
                                             </div>

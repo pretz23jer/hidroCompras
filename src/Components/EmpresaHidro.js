@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
 import Video from '../Resources/video.mp4';
 
 import marca1 from '../Resources/marca1.png';
@@ -40,28 +38,46 @@ import 'aos/dist/aos.css';
 class EmpresaHidro extends Component{
     render() {
         AOS.init();
+
+        let direccion = '.';
+
+        var form = document.forms['agendarCita'];
+        form.onSubmit = function(e){
+            e.preventDefault();
+            var select = document.form.nombreClie.value;
+            console.log(select);
+        }
+
+
+
+        function enviarData(){
+        let Apellidos = '';
+        let Correo = '';
+
+        //let direccion = 'https://api.whatsapp.com/send/?phone=50230656786&text=Hola%2C+le+comento+que+me+interes%C3%B3+el+producto+%3A+&type=phone_number&app_absent=0';
+        }
         return(
             <>
                 <div className="container text-center pt-3 pb-5" data-aos="fade-down">
                     <div className="row">
                         <div className="col-12 col-lg-6">
                             <p className="fs-2 fw-bold pt-5">ÚNETE A HIDROCOMPRAS Y PROLONGA LA VIDA DE TUS EQUIPOS HIDRÁULICOS</p>
-                            <p className="fs-5">Con nuestro programa de asistencias puedes brindarle un excelente mantenimiento preventivo a tus equipos y así duraran mucho mas tiempo.</p>
-                            <div className="pt-5 mt-1">
-                            <Form method="post">
-                                <div className="row">
-                                    <div className="col">
-                                        <Form.Group className="mb-3" controlId="formBasicEmail">
-                                            <Form.Control type="email" placeholder="Tu email" name="emailBusnes" required />
-                                        </Form.Group>
+                            <p className="fs-5">Con nuestro programa de asistencias puedes brindarles un excelente mantenimiento preventivo a tus equipos y así duraran mucho más tiempo.</p>
+                            <div className="pt-1 mt-1">
+                                <form className="row g-3" action={direccion} name="agendarCita" target="_blank" rel="noreferrer">
+                                    <div className="col-auto">
+                                        <input type="text" className="form-control" id="nombreClie" name="nombreClie" placeholder="Nombres" required/>
                                     </div>
-                                    <div className="col margenBoton">
-                                        <Button variant="primary" type="submit">
-                                            Agendar Cita
-                                        </Button>
+                                    <div className="col-auto">
+                                        <input type="text" className="form-control" id="apellidoClie" name="apellidoClie" placeholder="Apellidos" required/>
                                     </div>
-                                </div>
-                            </Form>
+                                    <div className="col-auto">
+                                        <input type="email" className="form-control" id="emailClie" name="emailClie" placeholder="Correo Electrónico" required/>
+                                    </div>
+                                    <div className="col-auto">
+                                        <button type="submit" className="btn btn-primary btn-md">Agendar Cita</button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                         <div className="col-12 col-lg-6">
@@ -112,7 +128,7 @@ class EmpresaHidro extends Component{
                 </div>
                 <div className="bg-white pt-5 mb-5" data-aos="fade-down">
                     <div className="container">
-                        <p className="fs-3 text-center">TODO LO QUE NECESITAS PARA PROLONGAR LA VIDA DE TUS EQUIPOS!</p>
+                        <p className="fs-3 text-center">¡TODO LO QUE NECESITAS PARA PROLONGAR LA VIDA DE TUS EQUIPOS!</p>
                     </div>
                     <div className="container pt-5 mt-5">
                         <div className="row textoCotizaEspa">
@@ -125,7 +141,7 @@ class EmpresaHidro extends Component{
                                     <img src={motor} height="35"  alt="Marca Empresa"/><p className="ajusteTexto"><strong>Marcas reconocidas</strong> en productos hidráulicos residenciales e industriales.</p>
                                 </div>
                                 <div className="d-flex">
-                                    <img src={seguri} height="35"  alt="Marca Empresa"/><p className="ajusteTexto">Compras <strong>seguras</strong> y fiables en todos nuestros productos, así tambien garantía por desperfecto de fábrica</p>
+                                    <img src={seguri} height="35"  alt="Marca Empresa"/><p className="ajusteTexto">Compras <strong>seguras</strong> y fiables en todos nuestros productos, así también garantía por desperfecto de fábrica</p>
                                 </div>
                                 <div className="d-flex">
                                     <img src={envio} height="35"  alt="Marca Empresa"/><p className="ajusteTexto"><strong>Envíos</strong> a todo el país, trabajando con las empresas de paquetería y envíos: <strong>FORZA, CARGO EXPRESO</strong> y <strong>GUATEX</strong></p>
@@ -142,9 +158,9 @@ class EmpresaHidro extends Component{
                                 <img src={anuncio} height="200" className="img-fluid pb-3"  alt="Marca Empresa"/>
                             </div>
                             <div className="col-12 col-md-6 col-lg-6 pt-5">
-                                <p className="cotizaTexto pt-4">Desde tu hogar u oficina puedes adquirir nuestros productos, realizar <br /> compras y mucho mas...</p>
+                                <p className="cotizaTexto pt-4">Desde tu hogar u oficina puedes adquirir nuestros productos, realizar <br /> compras y mucho más...</p>
                                 <div className="d-flex">
-                                    <img src={telefono} height="30" alt="Marca Empresa" /><p className="ajusteTexto">&nbsp; &nbsp;Puedes visitarnos por medio de tu <strong>Smarthphone</strong>  o computadora</p>
+                                    <img src={telefono} height="30" alt="Marca Empresa" /><p className="ajusteTexto">&nbsp; &nbsp;Puedes visitarnos por medio de tu <strong>Smartphone</strong>  o computadora</p>
                                 </div>
                                 <div className="d-flex">
                                     <img src={reloj} height="30" alt="Marca Empresa" /><p className="ajusteTexto">&nbsp; &nbsp;Nuestro sitio disponible las <strong>24 /7 </strong> los 365 días</p>
@@ -212,12 +228,12 @@ class EmpresaHidro extends Component{
                                     <p className="fs-2 text-center">Descarga la app</p>
                                     <div className="d-flex justify-content-center pb-5" data-aos="fade-down">
                                         <div className="p-1 m-1">
-                                            <a href="#" rel="noreferrer" rel="noreferrer">
+                                            <a href="https://play.google.com/store/games?hl=es" target="_blank" rel="noreferrer">
                                                 <img src={PlayStore} height="50" alt="Imagen Hidro" />
                                             </a>
                                         </div>
                                         <div className="p-1 m-1" >
-                                            <a href="#" rel="noreferrer" rel="noreferrer">
+                                            <a href="https://apps.apple.com/es/app/apple-store/" target="_blank" rel="noreferrer">
                                                 <img src={AppStore} height="50" alt="Imagen Hidro" />
                                             </a>
                                         </div>
