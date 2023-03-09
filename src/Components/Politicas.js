@@ -16,7 +16,7 @@ class Politicas extends Component{
                 </div>
                 <div className="fondoCelesteDemo">
                     <div className="text-white text-center">
-                        <p className="fw-bold fs-1 h1 pt-3 pb-3">Nuestras Políticas <br /> &#128526;</p>
+                        <p className="fw-bold fs-1 h1 pt-3 pb-3">Nuestras Políticas</p>
                     </div>
                 </div>
                 <Footer />

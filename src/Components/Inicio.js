@@ -64,14 +64,6 @@ class Home extends Component{
                             <img src={ImgApp3}  className="d-block w-100" alt='Imágen Hidrocompras' />
                         </div>
                     </div>
-                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                            <span className="formaBoton" aria-hidden="true"><i className="fa fa-arrow-left"></i></span>
-                            <span className="visually-hidden ">Previous</span>
-                        </button>
-                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                            <span className="formaBoton" aria-hidden="true"><i className="fa fa-arrow-right" ></i></span>
-                            <span className="visually-hidden">Next</span>
-                        </button>
                     </div>
                 </div>
                 <div className="fondoAzulHidro" data-aos="fade-down">
@@ -137,28 +129,28 @@ class Home extends Component{
                             <div className="izquiTar tarjetaProducto" data-aos="fade-down">
                                 <img src={Logo} width="50" alt="Imagen Hidro" />
                                 <p className="fw-bold h6 pt-3 pb-3">INSTALACIONES</p><br />
-                                <p>Todos los productos que conoces e instalas te hacen ganar más dinero y acumular puntos</p><br/>
+                                <p>Todos los productos que conoces e instalas te hacen ganar más dinero y acumular puntos</p>
                             </div>
                         </div>
                         <div className="col-12 col-lg-3">
                             <div className="izquiTar tarjetaProducto" data-aos="fade-down">
                                 <img src={Logo} width="50" alt="Imagen Hidro" />
                                 <p className="fw-bold h6 pt-3 pb-3">LISTA DE MATERIALES</p><br />
-                                <p>Ahora los materiales que necesitas para tus instalaciones también suman en tu billetera digital.</p><br/>
+                                <p>Ahora los materiales que necesitas para tus instalaciones también suman en tu billetera digital.</p>
                             </div>
                         </div>
                         <div className="col-12 col-lg-3">
                             <div className="izquiTar tarjetaProducto" data-aos="fade-down">
                                 <img src={Logo} width="50" alt="Imagen Hidro" />
-                                <p className="fw-bold h6 pt-3 pb-3">REPRACIONES DE EQUIPOS <br />(TALLER)</p>
-                                <p>Todas las reparaciones de calentadores, bombas, purificadores y tanques, ganas también una comisión con nuestro Taller </p>
+                                <p className="fw-bold h6 pt-3 pb-3">REPRACIONES</p>
+                                <p>Todas las reparaciones de calentadores, bombas, purificadores y tanques ganas también una comisión con nuestro Taller </p>
                             </div>
                         </div>
                         <div className="col-12 col-lg-3">
                             <div className="dereTar tarjetaProducto " data-aos="fade-down">
                                 <img src={Logo} width="50" alt="Imagen Hidro" />
                                 <p className="fw-bold h6 pt-3 pb-3">ASISTENCIAS HIDRÁULICAS</p>
-                                <p>Con una cuota mensual podemos programarte tus servicios preventivos y si el equipo llegara a ya no funcionar más, lo cambiamos de inmediato.</p>
+                                <p>Con una cuota mensual podemos programarte tus servicios preventivos y si el equipo deja de funcionar, lo cambiamos de inmediato.</p>
                             </div>
                         </div>
                     </div>
@@ -273,27 +265,27 @@ class Home extends Component{
                         <div className="col-12 col-md-4" data-aos="fade-down">
                             <div className="disenoTarje text-center">
                                 <img src={Persona} width="140" alt="Imagen Hidro" />
-                                <p className="fw-bold h4">Olga Leticia Gómez Vignola - Cliente</p>
-                                <p className="p-2">Quedamos muy satisfechos con el trato inmediato y gentil, recibido por parte de ustedes; satisfechos ampliamente con el hidroneumático y el switch adquirido con ustedes para la bomba de la cisterna, agradecemos la entrega a domicilio y ha sido un gusto tratar con ustedes.<br />¡Muchas gracias!</p>
+                                <p className="fw-bold h4 text-center">Olga Leticia Gómez Vignola - Cliente</p>
+                                <p className="p-2 justificarTexto">Quedamos muy satisfechos con el trato inmediato y gentil recibido por parte de ustedes; satisfechos ampliamente con el hidroneumático y el switch adquirido con ustedes para la bomba de la cisterna, agradecemos la entrega a domicilio y ha sido un gusto tratar con ustedes. </p><p>¡Muchas gracias!</p>
                             </div>
                         </div>
                         <div className="col-12 col-md-4" data-aos="fade-down">
                             <div className="disenoTarje text-center">
                                 <img src={Persona2} width="140" alt="Imagen Hidro"/>
-                                <p className="fw-bold h4">Gabriela Baeza - Alquifiestas DELUX</p>
-                                <p className="p-2">Recomiendo mucho a esta empresa, es super fácil realizar la compra en línea y te llevan el producto hasta tu casa, me ahorran gasolina y tiempo y me puedo dedicar a otras cosas mientras vienen, los recomiendo muy puntuales y cumplidos con lo que ofrecen.</p><br />
+                                <p className="fw-bold h4 text-center">Gabriela Baeza - Alquifiestas DELUX</p>
+                                <p className="p-2 justificarTexto">Recomiendo mucho a esta empresa, es super fácil realizar la compra en línea y te llevan el producto hasta tu casa, me ahorran gasolina y tiempo y me puedo dedicar a otras cosas mientras vienen, los recomiendo muy puntuales y cumplidos con lo que ofrecen.</p><br />
                             </div>
                         </div>
                         <div className="col-12 col-md-4" data-aos="fade-down">
                             <div className="disenoTarje  text-center">
                                 <img src={Persona3} width="140" alt="Imagen Hidro" />
-                                <p className="fw-bold h4">Axel Mayen - Técnico Plomero Afiliado</p>
-                                <p className="p-2">Soy técnico - plomero domiciliar para el área de la capital e interior de Guatemala, desde hace tiempo estaba buscando la forma de incrementar mis ingresos, para mi sorpresa descubrí esta empresa llamada HIDROCOMPRAS.COM  </p><br />
+                                <p className="fw-bold h4 text-center">Axel Mayen - Técnico Plomero Afiliado</p>
+                                <p className="p-2 justificarTexto">Soy técnico - plomero domiciliar para el área de la capital e interior de Guatemala, desde hace tiempo estaba buscando la forma de incrementar mis ingresos, para mi sorpresa descubrí esta empresa llamada HIDROCOMPRAS.COM  </p><br />
                                 <a className="btn btn-sm continuarLeye" id="botonContinuar" data-bs-toggle="collapse" href="#masInfor" role="button" aria-expanded="false" aria-controls="collapseExample" onClick={comportamiento} >
                                     Continuar leyendo ... 
                                 </a>
                                 <div className="collapse" id="masInfor" data-aos="fade-down">
-                                    <p> Con su plan LEALTAD me gano una comisión por cada venta que hago a través de ellos, lo único que tengo que hacer es referir la venta con ellos por teléfono o WhatsApp y me parece bastante interesante por que es bien sencillo de pedir lo que se le va a instalar al cliente, ellos lo entregan, lo facturan. Ni el cliente ni yo gastamos tiempo ni gasolina. Ahora que estoy vendiendo a través de ellos cada vez que mi cliente necesite el cambio de un calentador, purificador, tanque o bomba para agua o la reparación de la misma, no lo hago con otra empresa, lo hago con HIDROCOMPRAS.COM por que con ellos gano más.</p>
+                                    <p className="justificarTexto"> Con su plan LEALTAD me gano una comisión por cada venta que hago a través de ellos, lo único que tengo que hacer es referir la venta con ellos por teléfono o WhatsApp y me parece bastante interesante por que es bien sencillo de pedir lo que se le va a instalar al cliente, ellos lo entregan, lo facturan. Ni el cliente ni yo gastamos tiempo ni gasolina. Ahora que estoy vendiendo a través de ellos cada vez que mi cliente necesite el cambio de un calentador, purificador, tanque o bomba para agua o la reparación de la misma, no lo hago con otra empresa, lo hago con HIDROCOMPRAS.COM por que con ellos gano más.</p>
                                 </div>
                                 <a className="btn btn-sm" id="botonOcultar" style={{ display: 'none' }} data-bs-toggle="collapse" href="#masInfor" role="button" aria-expanded="false" aria-controls="collapseExample" onClick={ocultarTexto}>
                                     Ocultar

@@ -25,13 +25,13 @@ function Menu(){
                             <a className="espaciarMenu" href="/coins" > HIDRO-FICHAS</a>
                           </li>
                           <li>
-                            <a className="espaciarMenu" href="/puntos" >Puntos</a>
+                            <a className="espaciarMenu" href="/puntos" >PUNTOS</a>
                           </li>
                           <li>
-                            <a className="espaciarMenu" href="https://play.google.com/store/apps/" target="_blank"  rel="noopener noreferrer">Descarga la APP</a>
+                            <a className="espaciarMenu" href="https://play.google.com/store/apps/" target="_blank"  rel="noopener noreferrer">DESCARGA LA APP</a>
                           </li>
                           <li>
-                            <a className="espaciarMenu" href="/empresa" >Hidrocompras para Empresas</a>
+                            <a className="espaciarMenu" href="/empresa" >HIDROCOMPRAS PARA EMPRESAS</a>
                           </li>
                         </div>
                       </ul>

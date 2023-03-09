@@ -90,7 +90,7 @@ class PuntosHidro extends Component{
                             <div className="p-4">
                                 <img src={Ilustracion1} className="img-fluid" alt="Imagen Hidro" />
                                 <p className="fs-3 fw-bold">Acumula Puntos</p>
-                                <p className="fs-5">Al referir los productos que instalas, estos te dan una comisión y a la vez ganas puntos, los puedes revisar en tu Wallet Digital</p>
+                                <p className="fs-5">Al referir los productos que instalas, estos te dan una comisión y a la vez ganas puntos, los puedes revisar en tu Billetera Digital</p>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4" data-aos="fade-down">

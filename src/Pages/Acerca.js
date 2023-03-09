@@ -27,7 +27,7 @@ function Acerca(){
 
                             Tenemos como tarea importante recompensar a nuestros afiliados a través de <strong>múltiples estrategias</strong> y utilizamos la tecnología para garantizar los <strong>mejores beneficios </strong>en todas sus instalaciones hidráulicas residenciales.<br /><br />
 
-                            <strong>HIDROCOMPRAS</strong> conecta a millones de personas y hogares con miles de técnicos – plomeros – instaladores que se encuentran buscando la oportunidad de servirle en sus necesidades hidráulicas residenciales. 
+                            <strong>HIDROCOMPRAS</strong> conecta a millones de personas y hogares con miles de técnicos – plomeros – instaladores que se encuentran buscando la oportunidad de servirle en sus necesidades hidráulicas residenciales. <br />
 
                             <strong> Somos una herramienta de venta, la conexión entre la necesidad del cliente y los productos que los técnicos – plomeros atienden </strong>, el cliente encontrará los productos a precios competitivos pero sus beneficios vienen desde el ahorrarse el tiempo y el combustible que usa para salir a buscar el equipo adecuado para su necesidad de agua, así como dolores de cabeza con el tráfico que únicamente nos quita nuestra paciencia y paz. 
                             </p>
@@ -40,7 +40,7 @@ function Acerca(){
                                 <p>
                                 Los equipos son facturados por HIDROCOMPRAS, entregados a la dirección que el cliente nos indique y todo lo hará en su celular desde la comodidad de su casa u oficina. Nuestros afiliados harán su trabajo normal asesorando como se debe, recomendándole los equipos y las marcas que usted como cliente necesita conocer. TODOS NUESTROS PRODUCTOS cuentan con garantía por desperfectos de fábrica de 1 año.<br /><br />
 
-                                En Guatemala unimos al e-commerce, empresas reconocidas, y las marcas RHE (Residential Hydraulic Equipment) más grandes del mundo. <strong>Hacemos que cada compra valga la pena y le de satisfacción a nuestros clientes y afiliados.</strong><br /><br />
+                                En Guatemala unimos al e-commerce con empresas reconocidas y las marcas RHE (Residential Hydraulic Equipment) más grandes del mundo. <strong>Hacemos que cada compra valga la pena y le de satisfacción a nuestros clientes y afiliados.</strong><br /><br />
                                 
                                 <strong>Estamos cambiando la forma de comprar productos hidráulicos </strong>sin que el cliente se sienta no asesorado o solo.  <strong>Motivamos a nuestros afiliados</strong> a capacitarse y estar lo mejor preparados para que sin importar las condiciones de instalación que se puedan presentar, siempre estén preparados, es por eso que contamos con capacitaciones virtuales y presenciales impartidas por nuestros proveedores y representantes de marcas de cada categoría por separado, buscamos la excelencia y que nuestros afiliados sean parte de ella.
                                 </p>
@@ -100,7 +100,7 @@ function Acerca(){
             </div>
             <div className="fondoCelesteDemo" data-aos="fade-down">
                     <div className="text-white text-center">
-                        <p className="fw-bold fs-1 h1 pt-3 pb-3">HIDROCOMPRAS <br />Tú mejor opción &#128512;</p>
+                        <p className="fw-bold fs-1 h1 pt-3 pb-3">HIDROCOMPRAS <br />Tú mejor opción</p>
                     </div>
                 </div>
             <Footer />

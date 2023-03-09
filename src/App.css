@@ -751,6 +751,16 @@ nav{
 .espacioBaner{
   padding-top: 5rem;
 }
+
+.justificarTexto{
+  text-align: justify;
+}
+
+.centarContenidoIcono{
+  align-self: center;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+}
 /*MEDIA QUERYS*/
 
 @media screen and (min-width: 900px) {

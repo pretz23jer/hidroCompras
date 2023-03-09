@@ -18,6 +18,7 @@ import telefono from '../Resources/telefono.ico';
 import reloj from '../Resources/reloj.ico';
 import anuncio from '../Resources/anuncio.jpg';
 import click from '../Resources/verde.ico';
+import facebook from '../Resources/face.ico';
 import bombas from '../Resources/p6.png';
 import depositos from '../Resources/purifica.png';
 import calentadores from '../Resources/calentador.png';
@@ -36,26 +37,37 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 class EmpresaHidro extends Component{
+
     render() {
         AOS.init();
+        let NombreClie = '';
+        let ApellidoClie = '';
+        let emailClie = '';
 
-        let direccion = '.';
+        let PartesMensaje = ' Quiero agendar una cita';
+        let EstructuraFinal = 'phone_number&app_absent=0';
+        let celularHidro = '50230656786';
 
-        var form = document.forms['agendarCita'];
-        form.onSubmit = function(e){
-            e.preventDefault();
-            var select = document.form.nombreClie.value;
-            console.log(select);
+        let direccion = 'https://api.whatsapp.com/send/?';
+
+        let NombreClieOptenido = '';
+        let ApellidoClieOptenido = '';
+        let emailClieOptenido = '';
+
+        function capturaFuncion(){
+            NombreClie = document.getElementById('nombre');
+            ApellidoClie = document.getElementById('Apellido');
+            emailClie = document.getElementById('Correo');
+
+            NombreClieOptenido = NombreClie.value;
+            ApellidoClieOptenido = ApellidoClie.value;
+            emailClieOptenido = emailClie.value;
+
+            let mensajeRestructura = ('Hola le saluda: *' + NombreClieOptenido + ' ' + ApellidoClieOptenido + '*, *correo electrónico:* ' + emailClieOptenido + ' ' + PartesMensaje);
+
+           document.getElementById('text').value = mensajeRestructura;
         }
 
-
-
-        function enviarData(){
-        let Apellidos = '';
-        let Correo = '';
-
-        //let direccion = 'https://api.whatsapp.com/send/?phone=50230656786&text=Hola%2C+le+comento+que+me+interes%C3%B3+el+producto+%3A+&type=phone_number&app_absent=0';
-        }
         return(
             <>
                 <div className="container text-center pt-3 pb-5" data-aos="fade-down">
@@ -64,23 +76,26 @@ class EmpresaHidro extends Component{
                             <p className="fs-2 fw-bold pt-5">ÚNETE A HIDROCOMPRAS Y PROLONGA LA VIDA DE TUS EQUIPOS HIDRÁULICOS</p>
                             <p className="fs-5">Con nuestro programa de asistencias puedes brindarles un excelente mantenimiento preventivo a tus equipos y así duraran mucho más tiempo.</p>
                             <div className="pt-1 mt-1">
-                                <form className="row g-3" action={direccion} name="agendarCita" target="_blank" rel="noreferrer">
-                                    <div className="col-auto">
-                                        <input type="text" className="form-control" id="nombreClie" name="nombreClie" placeholder="Nombres" required/>
+                                <form className="row g-3" name="enviarFom" action={direccion} target="_blank" >
+                                    <input type="hidden" name="phone" value={celularHidro} />
+                                    <input type="hidden" name="text" id='text' />
+                                    <div className="col-12 col-lg-6 col-auto">
+                                        <input type="text" className="form-control" id="nombre" placeholder="nombre" required/>
                                     </div>
-                                    <div className="col-auto">
-                                        <input type="text" className="form-control" id="apellidoClie" name="apellidoClie" placeholder="Apellidos" required/>
+                                    <div className="col-12 col-lg-6 col-auto">
+                                        <input type="text" className="form-control" id="Apellido" placeholder="Apellidos" required/>
                                     </div>
-                                    <div className="col-auto">
-                                        <input type="email" className="form-control" id="emailClie" name="emailClie" placeholder="Correo Electrónico" required/>
+                                    <div className="col-12 col-lg-6 col-auto">
+                                        <input type="email" className="form-control" id="Correo" placeholder="Correo Electrónico" required/>
                                     </div>
-                                    <div className="col-auto">
-                                        <button type="submit" className="btn btn-primary btn-md">Agendar Cita</button>
+                                    <input type="hidden" name="type"  defaultValue={EstructuraFinal} />
+                                    <div className="col-12 col-lg-6 col-auto">
+                                        <button type='submit' className="btn btn-primary btn-md"  onClick={capturaFuncion}>Agendar Cita</button>
                                     </div>
                                 </form>
                             </div>
                         </div>
-                        <div className="col-12 col-lg-6">
+                        <div className="col-12 col-lg-6"  data-aos="fade-down">
                             <div>
                             <video className="img-fluid" controls autoPlay={true} muted={true} loop alt="Imagen General">
                                 <source src={Video} type="video/mp4" />
@@ -89,36 +104,36 @@ class EmpresaHidro extends Component{
                         </div>
                     </div>
                 </div>
-                <div className="fondoBeige pt-5 mb-5" data-aos="fade-down">
-                    <div className="container text-center">
+                <div className="fondoBeige pt-5 mb-5" >
+                    <div className="container text-center" data-aos="fade-down">
                         <p className="fs-4">MÁS DE <strong>30</strong> MARCAS EN GUATEMALA CONFÍAN EN HIDROCOMPRAS</p>
                         <div className="row">
-                            <div className="col-6 col-lg-2">
+                            <div className="col-6 col-lg-2"  data-aos="fade-down">
                                 <div className="p-4">
                                     <img src={marca1} className="img-fluid" alt="Marca Empresa"/>
                                 </div>
                             </div>
-                            <div className="col-6 col-lg-2">
+                            <div className="col-6 col-lg-2"  data-aos="fade-down">
                                 <div className="p-4">
                                     <img src={marca2} className="img-fluid" alt="Marca Empresa"/>
                                 </div>
                             </div>
-                            <div className="col-6 col-lg-2">
+                            <div className="col-6 col-lg-2"  data-aos="fade-down">
                                 <div className="p-4">
                                     <img src={marca3} className="img-fluid" alt="Marca Empresa"/>
                                 </div>
                             </div>
-                            <div className="col-6 col-lg-2">
+                            <div className="col-6 col-lg-2"  data-aos="fade-down">
                                 <div className="p-4">
                                     <img src={marca4} className="img-fluid" alt="Marca Empresa"/>
                                 </div>
                             </div>
-                            <div className="col-6 col-lg-2">
+                            <div className="col-6 col-lg-2"  data-aos="fade-down">
                                 <div className="p-4">
                                     <img src={marca5} className="img-fluid" alt="Marca Empresa"/>
                                 </div>
                             </div>
-                            <div className="col-6 col-lg-2">
+                            <div className="col-6 col-lg-2"  data-aos="fade-down">
                                 <div className="p-4">
                                     <img src={marca6} className="img-fluid" alt="Marca Empresa"/>
                                 </div>
@@ -126,25 +141,45 @@ class EmpresaHidro extends Component{
                         </div>
                     </div>
                 </div>
-                <div className="bg-white pt-5 mb-5" data-aos="fade-down">
-                    <div className="container">
+                <div className="bg-white pt-5 mb-5">
+                    <div className="container"  data-aos="fade-down">
                         <p className="fs-3 text-center">¡TODO LO QUE NECESITAS PARA PROLONGAR LA VIDA DE TUS EQUIPOS!</p>
                     </div>
-                    <div className="container pt-5 mt-5">
+                    <div className="container pt-5 mt-5"  data-aos="fade-down">
                         <div className="row textoCotizaEspa">
                             <div className="col-12 col-md-6 col-lg-6">
                                     <p className="cotizaTexto fs-3 fw-bold">Productos de alta calidad,<br /> eficiencia  y garantía</p>
                                 <div className="d-flex">
-                                    <img src={casco} height="35"  alt="Marca Empresa"/><p className="ajusteTexto">Contamos con <strong>asesoría técnica</strong>  en instalación de nuestros productos adquiridos.</p>
+                                    <div className="centarContenidoIcono">
+                                        <img src={casco} height="35"  alt="Marca Empresa"/>
+                                    </div>
+                                    <div>
+                                        <p className="ajusteTexto">Contamos con <strong>asesoría técnica</strong>  en instalación de nuestros productos adquiridos.</p>
+                                    </div>
                                 </div>
                                 <div className="d-flex">
-                                    <img src={motor} height="35"  alt="Marca Empresa"/><p className="ajusteTexto"><strong>Marcas reconocidas</strong> en productos hidráulicos residenciales e industriales.</p>
+                                    <div className="centarContenidoIcono">
+                                        <img src={motor} height="35"  alt="Marca Empresa"/>
+                                    </div>
+                                    <div>
+                                        <p className="ajusteTexto"><strong>Marcas reconocidas</strong> en productos hidráulicos residenciales e industriales.</p>
+                                    </div>
                                 </div>
                                 <div className="d-flex">
-                                    <img src={seguri} height="35"  alt="Marca Empresa"/><p className="ajusteTexto">Compras <strong>seguras</strong> y fiables en todos nuestros productos, así también garantía por desperfecto de fábrica</p>
+                                        <div className="centarContenidoIcono">
+                                            <img src={seguri} height="35"  alt="Marca Empresa"/>
+                                        </div>
+                                        <div>
+                                            <p className="ajusteTexto">Compras <strong>seguras</strong> y fiables en todos nuestros productos, así también garantía por desperfecto de fábrica</p>
+                                        </div>
                                 </div>
                                 <div className="d-flex">
-                                    <img src={envio} height="35"  alt="Marca Empresa"/><p className="ajusteTexto"><strong>Envíos</strong> a todo el país, trabajando con las empresas de paquetería y envíos: <strong>FORZA, CARGO EXPRESO</strong> y <strong>GUATEX</strong></p>
+                                    <div className="centarContenidoIcono">
+                                        <img src={envio} height="35"  alt="Marca Empresa"/>
+                                    </div>
+                                    <div>
+                                        <p className="ajusteTexto"><strong>Envíos</strong> a todo el país, trabajando con las empresas de paquetería y envíos: <strong>FORZA, CARGO EXPRESO</strong> y <strong>GUATEX</strong></p>
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-12 col-md-6 col-lg-6">
@@ -152,7 +187,7 @@ class EmpresaHidro extends Component{
                             </div>
                         </div>
                     </div>
-                    <div className="container segmentoDos pt-5 mt-5" data-aos="down-up">
+                    <div className="container segmentoDos pt-5 mt-5" data-aos="fade-down">
                         <div className="row">
                             <div className="col-12 col-md-6 col-lg-6">
                                 <img src={anuncio} height="200" className="img-fluid pb-3"  alt="Marca Empresa"/>
@@ -160,13 +195,28 @@ class EmpresaHidro extends Component{
                             <div className="col-12 col-md-6 col-lg-6 pt-5">
                                 <p className="cotizaTexto pt-4">Desde tu hogar u oficina puedes adquirir nuestros productos, realizar <br /> compras y mucho más...</p>
                                 <div className="d-flex">
-                                    <img src={telefono} height="30" alt="Marca Empresa" /><p className="ajusteTexto">&nbsp; &nbsp;Puedes visitarnos por medio de tu <strong>Smartphone</strong>  o computadora</p>
+                                    <div className="centarContenidoIcono">
+                                        <img src={telefono} height="30" alt="Marca Empresa" />
+                                    </div>
+                                    <div>
+                                        <p className="ajusteTexto">Puedes visitarnos por medio de tu <strong>Smartphone</strong>  o computadora</p>
+                                    </div>
                                 </div>
                                 <div className="d-flex">
-                                    <img src={reloj} height="30" alt="Marca Empresa" /><p className="ajusteTexto">&nbsp; &nbsp;Nuestro sitio disponible las <strong>24 /7 </strong> los 365 días</p>
+                                <div className="centarContenidoIcono">
+                                        <img src={reloj} height="30" alt="Marca Empresa" />
+                                    </div>
+                                    <div>
+                                        <p className="ajusteTexto">Nuestro sitio disponible las <strong>24 /7 </strong> los 365 días</p>
+                                    </div>
                                 </div>
                                 <div className="d-flex">
-                                    <i className="fa fa-facebook fa-lg"></i><p className="ajusteTexto">&nbsp; &nbsp; &nbsp; &nbsp;Contamos con nuestras <strong>Redes Sociales</strong> para que nos sigues y te puedas comunicar con nosotros</p>
+                                <div className="centarContenidoIcono">
+                                        <img src={facebook} height="30" alt="Marca Empresa" />
+                                    </div>
+                                    <div>
+                                        <p className="ajusteTexto">Contamos con nuestras <strong>Redes Sociales</strong> para que nos sigues y te puedas comunicar con nosotros</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -178,7 +228,7 @@ class EmpresaHidro extends Component{
                     <div className="bombaAgua pt-5 pb-5" data-aos="down-up">
                         <p className="contactar text-center text-black fs-3" >ADQUIERE TUS PRODUCTOS EN HIDROCOMPRAS!</p>
                         <p className="text-center text-black">Recuerde que con Hidrocompras encuentras todos los equipos hidráulicos residenciales e industriales.</p>
-                        <p className="text-center text-black">Cotiza en un solo clic <img src={click} width="50" alt="imagen-hidro"/> </p>
+                        <p className="text-center text-black">Cotiza en un solo click <img src={click} width="50" alt="imagen-hidro"/> </p>
                     </div>
                     <div className="container concatacnos" data-aos="down-up">
                         <p className="cotizaTexto text-center fs-3 fw-bold">PRODUCTOS PARA EL HOGAR</p><br/><br/>

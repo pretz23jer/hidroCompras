@@ -64,20 +64,20 @@ class Monedas extends Component{
                 </Carousel>
                 <div className="fondoBeigeDos pt-5 pb-5" data-aos="fade-down">
                     <div className="container mt-4">
-                        <p className="h1 monedaTexto">¿Qué son los HIDROPUNTOS  _____________________________</p>
-                        <p className="h4 pt-4 pb-4">HIDROPUNTOS<img src={Logo} height="40" alt="Imagen Hidro" /></p>
+                        <p className="h1 monedaTexto">¿Qué son los HIDRO-FICHAS" _____________________________</p>
+                        <p className="h4 pt-4 pb-4">HIDRO-FICHAS <img src={Logo} height="40" alt="Imagen Hidro" /></p>
                         <div className="row mb-5 pb-5">
                             <div className="col-12 col-md-4" data-aos="fade-down">
                                 <div className="estiloTarjetaMonedas">
                                     <img src={CirculoMoneda} height="200" alt="Imagen Hidro" />
-                                    <p className="h3 text-center fw-bold text-white mb-3 mt-3">Gana Hidro Ficha</p>
-                                    <p className="text-center text-white h5 lh-base">¡Al comprar tus químicos o accesorios para tu piscina de cualquier marca ganas HIDRO-FICHAS!.</p>
+                                    <p className="h3 text-center fw-bold text-white mb-3 mt-3">Gana Hidro FichaS</p>
+                                    <p className="text-center text-white h5 lh-base">¡Al comprar tus químicos y/o accesorios para tu piscina de cualquier marca ganas HIDRO-FICHAS!.</p>
                                 </div>
                             </div>
                             <div className="col-12 col-md-4" data-aos="fade-down">
                                 <div className="estiloTarjetaMonedas2">
                                     <img src={CirculoCasa} height="200" alt="Imagen Hidro" />
-                                    <p className="h3 text-center fw-bold text-white mb-3 mt-3">Úsalos en la red</p>
+                                    <p className="h3 text-center fw-bold text-white mb-3 mt-3">Úsalas en la red</p>
                                     <p className="text-center text-white h5 lh-base">Con tus HIDRO-FICHAS puedes comprar los productos que representamos.</p><br />
                                 </div>
                             </div>
