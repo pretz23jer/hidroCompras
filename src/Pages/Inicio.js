@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { Component } from "react";
 
 import Boton from '../Layouts/Boton';
@@ -15,6 +16,24 @@ function Inicio(){
             <Menu />
             <Home />
             <Boton />
+=======
+import React from "react";
+import Enunciado from '../components/Enunciado';
+import Contenido from '../components/Contenido';
+import Marcas from '../components/Marcas';
+import Boton from '../Layout/Boton';
+import Menu from '../Layout/Menu';
+import Footer from "../Layout/Footer";
+
+function Inicio(){
+    return (
+        <div>
+            <Menu />
+            <Boton />
+            <Enunciado />
+            <Marcas />
+            <Contenido />
+>>>>>>> 4ef920d8a9a6f9378591e2f0e1ea4aec7fd59df4
             <Footer />
         </div>
     )

@@ -5,6 +5,7 @@ nav{
   box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px;
 }
 
+<<<<<<< HEAD
 .separarLogo{
   margin-left: 2rem;
 }
@@ -33,6 +34,25 @@ nav{
 }
 
 
+=======
+#nbarras a{
+font-size: 13px;
+font-weight: bold;
+color:rgb(73, 73, 73);
+
+}
+
+#nbarras a:hover{
+background-color: #8cc7fb8c;
+color:black;
+font-size: 17px;
+}
+
+.espacio{
+  padding-top: 4rem;
+}
+
+>>>>>>> 4ef920d8a9a6f9378591e2f0e1ea4aec7fd59df4
 /*pie de pagina*/
 .pie{
   background-color: #000000;
@@ -169,6 +189,35 @@ nav{
   left: 0;
 }
 
+<<<<<<< HEAD
+=======
+@media screen and (max-width: 767px) {
+  .videomostrado{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: -1;
+  }
+  .textoenfrenteVideo{
+    position: relative;
+    overflow: hidden;
+  }
+
+  .enunciaTexto{
+    font-size: 4.5vh;
+  }
+  .centrarContenido{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .textoenfrenteVideo{
+    margin-top: 9rem;
+  }
+}
+
+>>>>>>> 4ef920d8a9a6f9378591e2f0e1ea4aec7fd59df4
 .enlaceText a:link{
   text-decoration: none;
 }
@@ -180,7 +229,123 @@ nav{
 .enlaceText a:hover{
   font-size: 14px;
 }
+<<<<<<< HEAD
 
+=======
+/*masrcas*/
+.estiloPagina{
+  background-color: #f8f8f8;
+  padding: 4rem 0;
+  color: rgb(71, 71, 71);
+}
+
+.marcasEstilo{
+  font-size: 22px;
+  font-weight: 500;
+}
+.lineaAzul{
+  width: 75px;
+  height: 6px;
+  background-color: #0ba3d3;
+  margin:0px auto;
+}
+.padreLineaAzul{
+  margin-top: -15px;
+  margin-bottom: 2rem;
+}
+.imgMarcas{
+  margin: 0px;
+}
+
+/*carusel marcas*/
+
+/*
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+      display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+      display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+
+@media (min-width: 768px) {
+  
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+  
+  .carousel-inner .carousel-item-start.active, 
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+transform: translateX(0);
+}
+*/
+
+.stiloCard{
+  background-color: #000;
+  border: none;
+  margin: 0px auto;
+}
+
+
+.espacioCard{
+  padding: 1rem;
+}
+
+/*---end----*/
+
+/*seccion todolo que necesita*/
+.textoPicina{
+  font-size: 35px;
+  line-height: 38.5px;
+  font-weight: 900;
+}
+.lineaRoja{
+  text-align: center;
+  width: 75px;
+  height: 5px;
+  background-color: #ea3c4a;
+  margin: 0px auto;
+}
+
+.textoCotizaEspa{
+  margin-top: 3rem;
+  padding-bottom: 5rem;
+}
+.cotizaTexto{
+  font-size: 25px;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.ajusteTexto{
+  margin-left: 8px;
+}
+
+.segmentoDos{
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+
+.bombaAgua{
+  background-color: #000000;
+  padding: 5rem 0;
+}
+>>>>>>> 4ef920d8a9a6f9378591e2f0e1ea4aec7fd59df4
 
 /*contactar*/
 .contactar{
@@ -192,6 +357,7 @@ nav{
 
 .concatacnos{
   padding: 5rem 0;
+<<<<<<< HEAD
   background-image: url(./Resources/gota.png);
   background-repeat: repeat-x;
 }
@@ -204,12 +370,33 @@ nav{
     /*para mover en el plano*/
 	bottom:15px;
 	right:15px;
+=======
+  background-image: url(./components/img/gota.png);
+  background-repeat: repeat-x;
+}
+
+/*boton de whatsApp*/
+
+/*whatsapp*/
+.float{
+	position: fixed;
+	width:50px;
+	height:50px;
+    /*para mover en el plano*/
+	bottom:10px;
+	right:10px;
+>>>>>>> 4ef920d8a9a6f9378591e2f0e1ea4aec7fd59df4
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
+<<<<<<< HEAD
   font-size:35px;
   z-index:80;
+=======
+    font-size:30px;
+    z-index:80;
+>>>>>>> 4ef920d8a9a6f9378591e2f0e1ea4aec7fd59df4
 }
 .float:hover {
 	text-decoration: none;
@@ -218,7 +405,11 @@ nav{
 }
 
 .my-float{
+<<<<<<< HEAD
 	margin-top:5px;
+=======
+	margin-top:11px;
+>>>>>>> 4ef920d8a9a6f9378591e2f0e1ea4aec7fd59df4
 }
 
 /*sobre nosotros*/
@@ -304,6 +495,35 @@ nav{
   margin: 0 auto;
   background-color: #003566;
 }
+<<<<<<< HEAD
+=======
+ @media screen and (max-width: 992px) {
+  .acercaTexto{
+   height: 19rem;
+  }
+  .tarjetasAcerca{
+    height: 19rem;
+  }
+}
+
+@media screen and (max-width: 902px) {
+  .acercaTexto{
+   height: 20rem;
+  }
+  .tarjetasAcerca{
+    height: 20rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .acercaTexto{
+   height: 18rem;
+  }
+  .tarjetasAcerca{
+    height: 13rem;
+  }
+}
+>>>>>>> 4ef920d8a9a6f9378591e2f0e1ea4aec7fd59df4
 
 /*login*/
 .logearse {
@@ -426,6 +646,7 @@ nav{
   height: 500px;
   width: 800px;
   border: 0;
+<<<<<<< HEAD
 }
 
 
@@ -922,3 +1143,6 @@ nav{
   }
   
 }
+=======
+}
+>>>>>>> 4ef920d8a9a6f9378591e2f0e1ea4aec7fd59df4

@@ -1,14 +1,21 @@
 {
+<<<<<<< HEAD
   "name": "hidros",
   "version": "0.2.1",
   "homepage": "https://www.hidrocompras.com/",
   "private": "true",
+=======
+  "name": "hidrocompras",
+  "version": "0.1.0",
+  "private": true,
+>>>>>>> 4ef920d8a9a6f9378591e2f0e1ea4aec7fd59df4
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
+<<<<<<< HEAD
     "font-awesome": "^4.7.0",
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
@@ -21,6 +28,24 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
+=======
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.3",
+    "mysql": "^2.18.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-player": "^2.11.0",
+    "react-router-dom": "^6.8.1",
+    "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9",
+    "sequelize": "^6.28.0",
+    "sweetalert2": "^11.7.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+>>>>>>> 4ef920d8a9a6f9378591e2f0e1ea4aec7fd59df4
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -43,5 +68,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   }
+=======
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "author": "cloudit4",
+  "license": "ISC"
+>>>>>>> 4ef920d8a9a6f9378591e2f0e1ea4aec7fd59df4
 }

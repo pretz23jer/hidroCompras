@@ -4,7 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
+<<<<<<< HEAD
 .vscode
+=======
+>>>>>>> 4ef920d8a9a6f9378591e2f0e1ea4aec7fd59df4
 
 # testing
 /coverage
@@ -13,9 +16,14 @@
 /build
 
 # archivos
+<<<<<<< HEAD
 .rar
 build.rar
 hidros.rar
+=======
+build.rar
+hidroCompras.rar
+>>>>>>> 4ef920d8a9a6f9378591e2f0e1ea4aec7fd59df4
 
 # misc
 .DS_Store
